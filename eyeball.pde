@@ -1,10 +1,7 @@
 /* @pjs preload="crop.jpg" */
 PImage crop;
-/* @pjs preload="thank you.jpg" */
 PImage thankyou;
-/* @pjs preload="heart.png" */
 PImage heart;
-/* @pjs preload="house.jpg" */
 PImage house;
 PFont font;
 boolean x = false;
