@@ -1,7 +1,11 @@
-/* @pjs preload="thank you.jpg" @pjs preload="crop.jpg" @pjs preload="house.jpg"@pjs preload="heart.png";*/
+/* @pjs preload="crop.jpg" */
 PImage crop;
+/* @pjs preload="thank you.jpg" */
 PImage thankyou;
+/* @pjs preload="heart.png" */
 PImage heart;
+/* @pjs preload="house.jpg" */
+PImage house;
 PFont font;
 boolean x = false;
 boolean q = true;
@@ -17,7 +21,6 @@ int x4 = 0;
 
 void setup(){
   size(600,400);
-  PImage house;
   house = loadImage("house.jpg");
   image(house,0,0); 
 }
