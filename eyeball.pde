@@ -18,7 +18,7 @@ int x4 = 0;
 void setup(){
   size(600,400);
   /* @pjs preload="house.jpg" */
-  house = loadImage("house.jpg");
+  house = addImage("house.jpg");
   image(house,0,0); 
 }
 
@@ -73,10 +73,10 @@ void draw(){
   if(x==true){
     background(255);
     // @pjs preload="thank you.jpg"
-    thankyou = loadImage("thank you.jpg");
+    thankyou = addImage("thank you.jpg");
     image(thankyou,150,-60);
     // @pjs preload="crop.jpg" 
-    crop = loadImage("crop.jpg");
+    crop = addImage("crop.jpg");
     image(crop,70,175,width/1.3,height/2);
     fill(0);
     font = loadFont("VladimirScript-48.vlw");
@@ -127,7 +127,7 @@ void draw(){
     vertex(490,106); 
     endShape(); 
     // @pjs preload="heart.png"
-    heart = loadImage("heart.png");
+    heart = addImage("heart.png");
     image(heart,mouseX-50,mouseY-40,width/7,height/7);
   }
 }
