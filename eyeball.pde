@@ -1,4 +1,4 @@
-/* @pjs preload="thank you.jpg";preload="heart.png"; preload="crop.jpg";preload="house.jpg"; */
+/* @pjs preload="thank you.jpg"; */
 PImage house;
 PImage crop;
 PImage thankyou;
@@ -18,6 +18,7 @@ int x4 = 0;
 
 void setup(){
   size(600,400);
+  PImage house;
   house = loadImage("house.jpg");
   image(house,0,0); 
 }
