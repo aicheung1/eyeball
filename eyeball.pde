@@ -72,10 +72,10 @@ void draw(){
   }
   if(x==true){
     background(255);
-    /* @pjs load="thank you.jpg" */
+    // @pjs preload="thank you.jpg"
     thankyou = loadImage("thank you.jpg");
     image(thankyou,150,-60);
-    /* @pjs load="crop.jpg" */
+    // @pjs preload="crop.jpg" 
     crop = loadImage("crop.jpg");
     image(crop,70,175,width/1.3,height/2);
     fill(0);
@@ -126,7 +126,7 @@ void draw(){
     vertex(495,126); 
     vertex(490,106); 
     endShape(); 
-    /* @pjs load="heart.png" */
+    // @pjs preload="heart.png"
     heart = loadImage("heart.png");
     image(heart,mouseX-50,mouseY-40,width/7,height/7);
   }
