@@ -76,7 +76,10 @@ void draw(){
     crop = loadImage("crop.jpg");
     image(crop,70,175,width/1.3,height/2);
     fill(0);
-    font = createFont("VladimirScript-48.vlw");
+    .wf-<VladimirScript>-<fvd>-loading
+    .wf-<VladimirScript>-<fvd>-active
+    @font-face { font-style: normal; font-weight: normal; }
+    font = loadFont("VladimirScript-48.vlw");
     textFont(font);
     textSize(25);
     text("for everything you do",210,370);
