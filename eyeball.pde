@@ -19,6 +19,9 @@ int x4 = 0;
 void setup(){
   size(600,400);
   PImage house;
+  PImage crop;
+  PImage thankyou;
+  PImage heart;
   house = loadImage("house.jpg");
   image(house,0,0); 
 }
