@@ -1,7 +1,4 @@
-/* @pjs preload="thank you.jpg";
-@pjs preload="heart.png"; 
-@pjs preload="crop.jpg";
-@pjs preload="house.jpg"; */
+/* @pjs preload="thank you.jpg";preload="heart.png"; preload="crop.jpg";preload="house.jpg"; */
 PImage house;
 PImage crop;
 PImage thankyou;
