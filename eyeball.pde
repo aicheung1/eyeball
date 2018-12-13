@@ -1,6 +1,6 @@
 /* @pjs preload="house.jpg" */
-PImage crop;
 PImage thankyou;
+PImage crop;
 PImage heart;
 PImage house;
 PFont font;
